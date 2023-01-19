@@ -2,7 +2,7 @@ import localforage from "localforage";
 import { createContext, useCallback, useContext, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
-import { https } from "../config/http";
+import { https } from "../configs/http";
 
 interface User{
     id: number;
